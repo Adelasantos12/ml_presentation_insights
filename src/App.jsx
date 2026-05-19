@@ -175,6 +175,7 @@ export default function App() {
     { id: 'persistence', label: 'Trajectories' },
     { id: 'profiles', label: 'Institutional Profiles' },
     { id: 'structural', label: 'Structural Predictors' },
+    { id: 'interpretive-guide', label: 'How to Read' },
     { id: 'residuals', label: 'Diagnostic Signals' },
     { id: 'methodology', label: 'Transparency' },
     { id: 'configurations', label: 'Strategic Configurations' },
@@ -440,6 +441,39 @@ export default function App() {
           </div>
         </Section>
 
+
+        {/* NEW SECTION — How to read the political-institutional configurations */}
+        <Section id="interpretive-guide" className="bg-white border-y border-slate-50">
+          <div className="max-w-4xl">
+            <h2 className="text-3xl font-bold mb-8 text-navy-900 tracking-tight">How to read the political-institutional configurations</h2>
+            <div className="space-y-6 text-lg text-slate-600 leading-relaxed font-light">
+              <p>
+                This mapping should be read configurationally rather than as a linear ranking. The ICI captures domestic legal-institutional internalisation capacity, but the central analytical question is how that capacity is embedded in different political and institutional environments.
+              </p>
+              <p>
+                Countries may reach similar ICI scores through different pathways: stronger legal anchoring, higher regulatory quality, more stable democratic institutions, denser international participation, or greater legislative capacity. Conversely, similar formal commitments may produce different domestic implementation conditions when executive dominance, weak oversight, democratic erosion, institutional volatility, or limited legal anchoring are present.
+              </p>
+              <p>
+                These configurations are not causal claims. They are structured diagnostic patterns that help identify where domestic implementation capacity may be more resilient, fragile, executive-dependent, legally anchored, or institutionally underdeveloped.
+              </p>
+            </div>
+
+            <div className="mt-12 p-8 bg-slate-50 rounded-2xl border border-slate-200/60 shadow-sm max-w-3xl">
+              <div className="flex items-start gap-4">
+                <div className="bg-navy-900/5 p-3 rounded-xl shrink-0">
+                  <Info className="text-navy-900" size={24} />
+                </div>
+                <div>
+                  <h4 className="text-navy-900 font-bold mb-3 text-lg">What the configurations show</h4>
+                  <p className="text-slate-600 text-[15px] leading-relaxed mb-0">
+                    The configurations highlight that domestic internalisation is not only a question of treaty ratification or formal commitment. It depends on the interaction between legal anchoring, institutional capacity, democratic conditions, executive-legislative relations, regulatory quality, governance capacity and participation in global health governance. The visualisations are designed to support policy discussion about where international health commitments are more likely to be domestically absorbed, sustained, or remain vulnerable to political and institutional disruption.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </Section>
+
         {/* SECTION 7 — Residuals as diagnostic signals */}
         <Section id="residuals" className="bg-slate-50/30">
           <div className="max-w-5xl">
@@ -570,7 +604,7 @@ export default function App() {
         {/* SECTION 10 & 11 — Outcomes & Authority */}
         <Section id="outcomes">
           <div className="max-w-5xl">
-            <h2 className="text-4xl font-extrabold mb-10 tracking-tight">Evidence, Authority and Conversion</h2>
+            <h2 className="text-4xl font-extrabold mb-10 tracking-tight">Evidence and institutional authority</h2>
 
             <div className="grid md:grid-cols-2 gap-12 mb-16">
                <div>
@@ -604,7 +638,7 @@ export default function App() {
           <div className="max-w-5xl">
             <h2 className="text-4xl font-extrabold mb-10 tracking-tight text-navy-900">From configurations to entry points</h2>
             <p className="text-xl text-slate-600 mb-12 leading-relaxed font-light max-w-3xl">
-              Political authority shapes how health commitments are converted domestically. The mapping translates analytical findings into implementation questions.
+              The mapping translates analytical findings into practical implementation questions, identifying specific legal and institutional entry points.
             </p>
 
             <Figure
@@ -624,31 +658,31 @@ export default function App() {
                 </thead>
                 <tbody className="text-sm divide-y divide-slate-100">
                   <tr className="hover:bg-slate-50 transition-colors">
-                    <td className="p-6 font-bold text-navy-900 border-r border-slate-100">Strong formal commitments + <br />weak legal anchoring</td>
-                    <td className="p-6 text-slate-600 border-r border-slate-100 italic">Commitments may not be domestically actionable.</td>
-                    <td className="p-6 font-medium text-muted-blue">Legal preparedness review; statutory mandates; regulatory clarification.</td>
+                    <td className="p-6 font-bold text-navy-900 border-r border-slate-100">1. Strong formal commitments + <br />weak legal anchoring</td>
+                    <td className="p-6 text-slate-600 border-r border-slate-100 italic">Possible bottleneck: Commitments may not be domestically actionable.</td>
+                    <td className="p-6 font-medium text-muted-blue">Strategic entry point: Legal preparedness review; statutory mandates; regulatory clarification.</td>
                   </tr>
                   <tr className="hover:bg-slate-50 transition-colors">
-                    <td className="p-6 font-bold text-navy-900 border-r border-slate-100">Executive mobilisation + <br />weak institutional anchoring</td>
-                    <td className="p-6 text-slate-600 border-r border-slate-100 italic">Fast uptake but uncertain durability.</td>
-                    <td className="p-6 font-medium text-muted-blue">Budgetary anchoring; oversight routines; parliamentary committee engagement.</td>
+                    <td className="p-6 font-bold text-navy-900 border-r border-slate-100">2. Executive mobilisation + <br />weak institutional anchoring</td>
+                    <td className="p-6 text-slate-600 border-r border-slate-100 italic">Possible bottleneck: Fast uptake but uncertain durability.</td>
+                    <td className="p-6 font-medium text-muted-blue">Strategic entry point: Budgetary anchoring; oversight routines; parliamentary committee engagement.</td>
                   </tr>
                   <tr className="hover:bg-slate-50 transition-colors">
-                    <td className="p-6 font-bold text-navy-900 border-r border-slate-100">Institutional continuity + <br />weak signalling</td>
-                    <td className="p-6 text-slate-600 border-r border-slate-100 italic">Administrative routines may exist but remain politically invisible.</td>
-                    <td className="p-6 font-medium text-muted-blue">Documentation, reporting, inter-ministerial coordination and legal traceability.</td>
+                    <td className="p-6 font-bold text-navy-900 border-r border-slate-100">3. Institutional continuity + <br />weak signalling</td>
+                    <td className="p-6 text-slate-600 border-r border-slate-100 italic">Possible bottleneck: Administrative routines may exist but remain politically invisible.</td>
+                    <td className="p-6 font-medium text-muted-blue">Strategic entry point: Documentation, reporting, inter-ministerial coordination and legal traceability.</td>
                   </tr>
                   <tr className="hover:bg-slate-50 transition-colors">
-                    <td className="p-6 font-bold text-navy-900 border-r border-slate-100">Low baseline capacity + <br />high external engagement</td>
-                    <td className="p-6 text-slate-600 border-r border-slate-100 italic">Support may exceed absorptive capacity.</td>
-                    <td className="p-6 font-medium text-muted-blue">Sequenced technical cooperation; institutional scaffolding; implementation roadmaps.</td>
+                    <td className="p-6 font-bold text-navy-900 border-r border-slate-100">4. Low baseline capacity + <br />high external engagement</td>
+                    <td className="p-6 text-slate-600 border-r border-slate-100 italic">Possible bottleneck: Support may exceed absorptive capacity.</td>
+                    <td className="p-6 font-medium text-muted-blue">Strategic entry point: Sequenced technical cooperation; institutional scaffolding; implementation roadmaps.</td>
                   </tr>
                   <tr className="hover:bg-slate-50 transition-colors">
-                    <td className="p-6 font-bold text-navy-900 border-r border-slate-100">Strong technical profile + <br />low political conversion</td>
-                    <td className="p-6 text-slate-600 border-r border-slate-100 italic">Technical readiness may not become legal or policy change.</td>
-                    <td className="p-6 font-medium text-muted-blue">Policy brokerage; executive-legislative coordination; regulatory reform windows.</td>
+                    <td className="p-6 font-bold text-navy-900 border-r border-slate-100">5. Strong technical profile + <br />low political conversion</td>
+                    <td className="p-6 text-slate-600 border-r border-slate-100 italic">Possible bottleneck: Technical readiness may not become legal or policy change.</td>
+                    <td className="p-6 font-medium text-muted-blue">Strategic entry point: Policy brokerage; executive-legislative coordination; regulatory reform windows.</td>
                   </tr>
-                </tbody>
+</tbody>
               </table>
             </div>
           </div>
