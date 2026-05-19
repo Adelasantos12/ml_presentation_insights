@@ -1,0 +1,59 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+  body {
+    @apply antialiased text-slate-800 bg-white;
+    font-family: 'Inter', system-ui, sans-serif;
+  }
+
+  h1, h2, h3, h4 {
+    @apply text-navy-900 font-semibold tracking-tight;
+  }
+
+  p {
+    @apply leading-relaxed mb-4;
+  }
+}
+
+@layer components {
+  .section-container {
+    @apply max-w-6xl mx-auto px-6 py-20 md:py-32;
+  }
+
+  .card {
+    @apply bg-white p-8 border border-slate-100 rounded-2xl shadow-sm hover:shadow-lg hover:shadow-slate-200/50 transition-all duration-300;
+  }
+
+  .caution-box {
+    @apply bg-muted-grey/80 border-l-4 border-muted-orange p-8 my-10 rounded-r-2xl;
+  }
+
+  .key-takeaway {
+    @apply bg-navy-900 text-white p-10 my-12 rounded-2xl shadow-2xl shadow-navy-900/10;
+  }
+
+  .figure-caption {
+    @apply text-sm text-slate-500 mt-4 text-center italic;
+  }
+
+  .sticky-nav-item {
+    @apply block py-2.5 px-4 text-sm font-semibold text-slate-400 hover:text-navy-900 border-l-2 border-transparent hover:border-muted-blue transition-all;
+  }
+
+  .sticky-nav-item.active {
+    @apply text-navy-900 border-muted-blue bg-white shadow-sm rounded-r-lg;
+  }
+
+  .no-scrollbar::-webkit-scrollbar {
+    display: none;
+  }
+  .no-scrollbar {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+  }
+}

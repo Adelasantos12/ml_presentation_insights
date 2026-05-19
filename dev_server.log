@@ -1,0 +1,11 @@
+
+> domestic-internalisation-data-story@0.1.0 dev
+> vite
+
+
+  VITE v5.4.21  ready in 731 ms
+
+  ➜  Local:   http://localhost:5173/
+  ➜  Network: use --host to expose
+7:07:27 PM [vite] hmr update /src/App.jsx, /src/index.css
+7:07:27 PM [vite] hmr update /src/App.jsx, /src/index.css
