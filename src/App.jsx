@@ -821,28 +821,40 @@ export default function App() {
                  <p className="text-slate-400 text-sm leading-relaxed mb-8">
                    Research prototype for diagnostic and policy discussion purposes regarding domestic legal-institutional internalisation capacity in global health governance.
                  </p>
-                 <div className="flex gap-6 text-[10px] font-bold uppercase tracking-[0.2em] text-slate-500">
-                    <a href="https://github.com/adelasantosd/domestic-internalisation-global-health-lac" className="hover:text-muted-blue transition-colors">GitHub Repository</a>
-                    <span className="opacity-20">|</span>
-                    <span>© 2024</span>
+                 <div className="space-y-4">
+                    <div>
+                      <span className="text-[10px] font-black uppercase tracking-widest text-slate-500 block mb-2">Repository and Archiving</span>
+                      <p className="text-slate-400 text-xs leading-relaxed">
+                        The project is being prepared for open-source release. Code, documentation, and versioned materials will be made available through GitHub and Zenodo after formal launch. Preliminary access may be available upon reasonable request.
+                      </p>
+                    </div>
+                    <div className="flex gap-6 text-[10px] font-bold uppercase tracking-[0.2em] text-slate-500">
+                        <span>© 2026</span>
+                    </div>
                  </div>
               </div>
 
               <div className="grid grid-cols-1 gap-8 text-sm">
                  <div>
                     <span className="text-[10px] font-black uppercase tracking-widest text-slate-500 block mb-4">Author</span>
-                    <p className="text-white font-bold">Adela Santos</p>
+                    <div className="text-white space-y-1">
+                      <p className="font-bold">Adela Santos</p>
+                      <p className="text-xs text-slate-400">adela.santos@graduateinstitute.ch</p>
+                      <p className="text-xs text-slate-400">Postdoctoral Visiting Fellow, Global Health Centre, Geneva Graduate Institute (IHEID)</p>
+                      <p className="text-xs text-slate-400">Swiss Government Excellence Scholarship Holder, 2025–2026</p>
+                    </div>
                  </div>
                  <div>
                     <span className="text-[10px] font-black uppercase tracking-widest text-slate-500 block mb-4">Source Note</span>
-                    <p className="text-slate-300">Author’s calculations. Updated ICI panel, 18 Latin American countries + Cuba, 2011–2024.</p>
+                    <p className="text-slate-300">Author’s calculations. Updated ICI panel, 18 Latin American countries plus Cuba, 2011–2024.</p>
                  </div>
               </div>
            </div>
 
            <div className="max-w-5xl mx-auto mt-20 pt-10 border-t border-white/5">
+              <h4 className="text-[10px] font-black uppercase tracking-widest text-slate-500 mb-4">Disclaimer</h4>
               <p className="text-[10px] text-slate-600 leading-relaxed max-w-2xl italic">
-                 Disclaimer: This framework is intended for analytical and academic purposes. The Internalisation Capacity Index (ICI) and associated mappings represent diagnostic proxies and should not be interpreted as definitive legal findings or official country rankings by any international organization.
+                 This framework is intended for analytical and academic purposes. The Internalisation Capacity Index (ICI), country mappings, and political-institutional configurations are diagnostic proxies. They should not be interpreted as definitive legal findings, official country rankings, compliance determinations, causal estimates, or forecasts. No international organization has endorsed or validated these results.
               </p>
            </div>
         </footer>
