@@ -235,7 +235,7 @@ export default function App() {
             <div className="inline-block px-4 py-1.5 bg-navy-900 text-white text-[10px] font-bold tracking-[0.3em] uppercase rounded-full mb-8">
               Governance Analysis
             </div>
-            <h1 className="text-4xl md:text-6xl lg:text-7xl font-black text-navy-900 mb-8 leading-[1.1] tracking-tight max-w-5xl">
+            <h1 className="text-2xl md:text-4xl md:text-2xl md:text-4xl md:text-6xl lg:text-7xl font-black text-navy-900 mb-8 leading-[1.1] tracking-tight max-w-5xl">
               From Global Health Commitments to Domestic Implementation
             </h1>
             <p className="text-xl md:text-2xl text-slate-600 mb-12 max-w-3xl font-light leading-relaxed">
@@ -294,7 +294,7 @@ export default function App() {
         {/* SECTION 1 — The implementation problem */}
         <Section id="problem" className="bg-slate-50/50">
           <div className="max-w-4xl">
-            <h2 className="text-4xl font-extrabold mb-10 tracking-tight">The problem is not only ratification. <br /><span className="text-muted-blue">It is domestic conversion.</span></h2>
+            <h2 className="text-2xl md:text-4xl font-extrabold mb-10 tracking-tight">The problem is not only ratification. <br /><span className="text-muted-blue">It is domestic conversion.</span></h2>
             <p className="text-xl text-slate-600 mb-14 leading-relaxed font-light">
               Countries may ratify international instruments, participate in global health governance, or report formal capacity while still facing uneven domestic ability to convert commitments into enforceable legal and institutional action.
             </p>
@@ -322,7 +322,7 @@ export default function App() {
         {/* SECTION 2 — What the ICI captures */}
         <Section id="ici">
           <div className="max-w-4xl">
-            <h2 className="text-4xl font-extrabold mb-10 tracking-tight">A diagnostic proxy for domestic internalisation capacity</h2>
+            <h2 className="text-2xl md:text-4xl font-extrabold mb-10 tracking-tight">A diagnostic proxy for domestic internalisation capacity</h2>
             <p className="text-xl text-slate-600 mb-12 leading-relaxed font-light">
               The Internalisation Capacity Index (ICI) does not provide a legal finding of compliance. It is a diagnostic proxy for the domestic capacity to convert international health commitments into national legal and institutional action.
             </p>
@@ -353,7 +353,7 @@ export default function App() {
         {/* SECTION 3 — Regional variation */}
         <Section id="regional" className="bg-slate-50/30">
           <div className="max-w-5xl">
-            <h2 className="text-4xl font-extrabold mb-10 tracking-tight">Domestic internalisation capacity varies across the region</h2>
+            <h2 className="text-2xl md:text-4xl font-extrabold mb-10 tracking-tight">Domestic internalisation capacity varies across the region</h2>
 
             <Figure
               src="assets/01_regional_internalisation_capacity_2024.png"
@@ -372,7 +372,7 @@ export default function App() {
         {/* SECTION 4 — Institutional persistence */}
         <Section id="persistence">
           <div className="max-w-5xl">
-            <h2 className="text-4xl font-extrabold mb-10 tracking-tight">Internalisation capacity changes slowly and unevenly</h2>
+            <h2 className="text-2xl md:text-4xl font-extrabold mb-10 tracking-tight">Internalisation capacity changes slowly and unevenly</h2>
 
             <Figure
               src="assets/02_internalisation_trajectories_2011_2024.png"
@@ -398,7 +398,7 @@ export default function App() {
         {/* SECTION 5 — Component profiles and institutional pathways */}
         <Section id="profiles" className="bg-slate-50/30">
           <div className="max-w-5xl">
-            <h2 className="text-4xl font-extrabold mb-10 tracking-tight">Similar scores can reflect different institutional pathways</h2>
+            <h2 className="text-2xl md:text-4xl font-extrabold mb-10 tracking-tight">Similar scores can reflect different institutional pathways</h2>
 
             <Figure
               src="assets/03_component_profiles_2024.png"
@@ -421,7 +421,7 @@ export default function App() {
         {/* SECTION 6 — Structural predictors */}
         <Section id="structural">
           <div className="max-w-5xl">
-            <h2 className="text-4xl font-extrabold mb-10 tracking-tight">Predicted internalisation capacity is not only a health-sector signal</h2>
+            <h2 className="text-2xl md:text-4xl font-extrabold mb-10 tracking-tight">Predicted internalisation capacity is not only a health-sector signal</h2>
 
             <Figure
               src="assets/04_model_explanation_structural_predictors.png"
@@ -477,7 +477,7 @@ export default function App() {
         {/* SECTION 7 — Residuals as diagnostic signals */}
         <Section id="residuals" className="bg-slate-50/30">
           <div className="max-w-5xl">
-            <h2 className="text-4xl font-extrabold mb-10 tracking-tight">Where the model fails is analytically useful</h2>
+            <h2 className="text-2xl md:text-4xl font-extrabold mb-10 tracking-tight">Where the model fails is analytically useful</h2>
 
             <Figure
               src="assets/06_residuals_as_diagnostic_signals.png"
@@ -517,7 +517,7 @@ export default function App() {
         {/* SECTION 8 — Methodological transparency */}
         <Section id="methodology">
           <div className="max-w-4xl mb-10 flex items-center justify-between">
-             <h2 className="text-4xl font-extrabold tracking-tight">Methodological transparency</h2>
+             <h2 className="text-2xl md:text-4xl font-extrabold tracking-tight">Methodological transparency</h2>
              <button
                 onClick={() => setShowTechnical(!showTechnical)}
                 className="flex items-center gap-2 text-muted-blue font-bold text-sm uppercase tracking-widest px-4 py-2 bg-muted-blue/5 rounded-lg hover:bg-muted-blue/10 transition-colors"
@@ -559,7 +559,7 @@ export default function App() {
         <Section id="configurations" className="bg-navy-950 text-white overflow-hidden relative">
           <div className="absolute top-0 right-0 w-1/2 h-full bg-muted-blue/5 -skew-x-12 translate-x-20" />
           <div className="max-w-5xl relative z-10">
-            <h2 className="text-4xl font-extrabold mb-10 tracking-tight text-white">Strategic configurations identify different implementation terrains</h2>
+            <h2 className="text-2xl md:text-4xl font-extrabold mb-10 tracking-tight text-white">Strategic configurations identify different implementation terrains</h2>
 
             <div className="bg-white rounded-2xl p-4 md:p-8 mb-16">
                <Figure
@@ -604,7 +604,7 @@ export default function App() {
         {/* SECTION 10 & 11 — Outcomes & Authority */}
         <Section id="outcomes">
           <div className="max-w-5xl">
-            <h2 className="text-4xl font-extrabold mb-10 tracking-tight">Evidence and institutional authority</h2>
+            <h2 className="text-2xl md:text-4xl font-extrabold mb-10 tracking-tight">Evidence and institutional authority</h2>
 
             <div className="grid md:grid-cols-2 gap-12 mb-16">
                <div>
@@ -636,7 +636,7 @@ export default function App() {
         {/* SECTION 12 — From configurations to entry points */}
         <Section id="entry-points" className="bg-slate-50/50">
           <div className="max-w-5xl">
-            <h2 className="text-4xl font-extrabold mb-10 tracking-tight text-navy-900">From configurations to entry points</h2>
+            <h2 className="text-2xl md:text-4xl font-extrabold mb-10 tracking-tight text-navy-900">From configurations to entry points</h2>
             <p className="text-xl text-slate-600 mb-12 leading-relaxed font-light max-w-3xl">
               The mapping translates analytical findings into practical implementation questions, identifying specific legal and institutional entry points.
             </p>
@@ -648,7 +648,7 @@ export default function App() {
             />
 
             <div className="mt-16 overflow-x-auto rounded-2xl border border-slate-200 bg-white shadow-xl">
-              <table className="w-full text-left border-collapse">
+              <table className="min-w-[800px] w-full text-left border-collapse">
                 <thead>
                   <tr className="bg-navy-900 text-white">
                     <th className="p-6 font-bold uppercase tracking-widest text-[10px] w-1/3 border-r border-white/10">Configuration signal</th>
@@ -693,7 +693,7 @@ export default function App() {
           <div className="max-w-5xl">
             <div className="flex flex-col md:flex-row md:items-end justify-between gap-6 mb-12">
                <div>
-                  <h2 className="text-4xl font-extrabold tracking-tight mb-4">Country spotlight: Mexico</h2>
+                  <h2 className="text-2xl md:text-4xl font-extrabold tracking-tight mb-4">Country spotlight: Mexico</h2>
                   <p className="text-xl text-slate-600 font-light max-w-2xl leading-relaxed">
                     Mexico illustrates how the framework can move from regional mapping to country-level diagnostic questions.
                   </p>
@@ -775,7 +775,7 @@ export default function App() {
         {/* SECTION 14 — Potential relevance for PAHO/WHO-style work */}
         <Section id="relevance" className="bg-slate-50/50">
           <div className="max-w-4xl">
-            <h2 className="text-4xl font-extrabold mb-10 tracking-tight">Potential use as an implementation-intelligence layer</h2>
+            <h2 className="text-2xl md:text-4xl font-extrabold mb-10 tracking-tight">Potential use as an implementation-intelligence layer</h2>
 
             <div className="grid sm:grid-cols-2 gap-6 mb-16">
               <Card title="Legal preparedness mapping" icon={MapIcon}>
@@ -801,7 +801,7 @@ export default function App() {
         {/* SECTION 15 — What this tool does and does not claim */}
         <Section id="claims">
           <div className="max-w-5xl">
-            <h2 className="text-4xl font-extrabold mb-12 tracking-tight">What this tool does — and does not — claim</h2>
+            <h2 className="text-2xl md:text-4xl font-extrabold mb-12 tracking-tight">What this tool does — and does not — claim</h2>
 
             <div className="grid md:grid-cols-2 gap-0 border border-slate-200 rounded-3xl overflow-hidden shadow-2xl">
               <div className="p-10 bg-slate-50/50">
